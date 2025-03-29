@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Darunnajah</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Darunnajah <span>دار النجاح</span></h2>
+                <p>Panel Administrasi</p>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-newspaper"></i>
+                            <span>Kelola Berita</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-images"></i>
+                            <span>Kelola Galeri</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-video"></i>
+                            <span>Kelola Video</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Kalender Kegiatan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-users"></i>
+                            <span>Data Santri</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>Data Pengajar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-cog"></i>
+                            <span>Pengaturan</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <a href="#" class="logout-button">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Keluar</span>
+                </a>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-left">
+                    <button class="sidebar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h3>Dashboard</h3>
+                </div>
+                
+                <div class="header-right">
+                    <div class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    
+                    <div class="user-profile">
+                        <div class="profile-image">
+                            <img src="assets/admin-avatar.jpg" alt="Admin">
+                        </div>
+                        <div class="profile-info">
+                            <p class="profile-name">Admin Darunnajah</p>
+                            <p class="profile-role">Super Admin</p>
+                        </div>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="content-wrapper">
+                <div class="stats-cards">
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stats-info">
+                            <h3>Total Santri</h3>
+                            <p>523</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="stats-info">
+                            <h3>Total Pengajar</h3>
+                            <p>42</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="stats-info">
+                            <h3>Berita Terbit</h3>
+                            <p>15</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-card">
+                        <div class="stats-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="stats-info">
+                            <h3>Foto Galeri</h3>
+                            <p>87</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-row">
+                    <div class="content-box">
+                        <div class="box-header">
+                            <h4>Berita Terbaru</h4>
+                            <a href="#" class="see-all">Lihat Semua</a>
+                        </div>
+                        <div class="box-content">
+                            <div class="news-item">
+                                <div class="news-image">
+                                    <img src="assets/news1.jpg" alt="Berita">
+                                </div>
+                                <div class="news-content">
+                                    <h5>Penerimaan Santri Baru Tahun 2023</h5>
+                                    <p>Pendaftaran santri baru tahun ajaran 2023/2024 telah dibuka...</p>
+                                    <div class="news-meta">
+                                        <span><i class="fas fa-calendar-alt"></i> 15 Juni 2023</span>
+                                        <span><i class="fas fa-eye"></i> 245</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="news-item">
+                                <div class="news-image">
+                                    <img src="assets/news2.jpg" alt="Berita">
+                                </div>
+                                <div class="news-content">
+                                    <h5>Kegiatan Muhadharah Mingguan</h5>
+                                    <p>Santri Darunnajah menunjukkan bakat mereka dalam muhadharah...</p>
+                                    <div class="news-meta">
+                                        <span><i class="fas fa-calendar-alt"></i> 10 Juni 2023</span>
+                                        <span><i class="fas fa-eye"></i> 189</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="content-box">
+                        <div class="box-header">
+                            <h4>Aktivitas Terkini</h4>
+                            <a href="#" class="see-all">Lihat Semua</a>
+                        </div>
+                        <div class="box-content">
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <p>Anda menambahkan 5 foto baru ke galeri</p>
+                                    <span class="activity-time">2 jam yang lalu</span>
+                                </div>
+                            </div>
+                            
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-edit"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <p>Anda memperbarui halaman "Tentang Kami"</p>
+                                    <span class="activity-time">Kemarin, 15:32</span>
+                                </div>
+                            </div>
+                            
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-user-plus"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <p>3 santri baru ditambahkan ke sistem</p>
+                                    <span class="activity-time">Kemarin, 10:45</span>
+                                </div>
+                            </div>
+                            
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <p>Video baru "Kegiatan Tahfidz" diunggah</p>
+                                    <span class="activity-time">2 hari yang lalu</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-box full-width">
+                    <div class="box-header">
+                        <h4>Unggah Konten Baru</h4>
+                    </div>
+                    <div class="box-content">
+                        <div class="upload-tabs">
+                            <div class="tab-buttons">
+                                <button class="tab-button active" data-tab="photo">Foto</button>
+                                <button class="tab-button" data-tab="video">Video</button>
+                                <button class="tab-button" data-tab="article">Artikel</button>
+                            </div>
+                            
+                            <div class="tab-content active" id="photo">
+                                <form class="upload-form">
+                                    <div class="form-group">
+                                        <label for="photo-title">Judul Foto</label>
+                                        <input type="text" id="photo-title" placeholder="Masukkan judul foto">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="photo-description">Deskripsi</label>
+                                        <textarea id="photo-description" placeholder="Masukkan deskripsi foto"></textarea>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="photo-category">Kategori</label>
+                                        <select id="photo-category">
+                                            <option value="kegiatan">Kegiatan</option>
+                                            <option value="fasilitas">Fasilitas</option>
+                                            <option value="prestasi">Prestasi</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="photo-upload">Unggah Foto</label>
+                                        <div class="upload-area" id="photo-upload">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <p>Seret dan lepas file foto di sini atau klik untuk memilih</p>
+                                            <input type="file" accept="image/*" multiple>
+                                        </div>
+                                    </div>
+                                    
+                                    <button type="submit" class="upload-button">Unggah Foto</button>
+                                </form>
+                            </div>
+                            
+                            <div class="tab-content" id="video">
+                                <form class="upload-form">
+                                    <div class="form-group">
+                                        <label for="video-title">Judul Video</label>
+                                        <input type="text" id="video-title" placeholder="Masukkan judul video">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="video-description">Deskripsi</label>
+                                        <textarea id="video-description" placeholder="Masukkan deskripsi video"></textarea>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="video-category">Kategori</label>
+                                        <select id="video-category">
+                                            <option value="kegiatan">Kegiatan</option>
+                                            <option value="pengajian">Pengajian</option>
+                                            <option value="prestasi">Prestasi</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label>Pilih Sumber Video</label>
+                                        <div class="video-source-options">
+                                            <div class="source-option active" data-source="upload">
+                                                <i class="fas fa-upload"></i>
+                                                <span>Unggah</span>
+                                            </div>
+                                            <div class="source-option" data-source="youtube">
+                                                <i class="fab fa-youtube"></i>
+                                                <span>YouTube</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group video-upload" id="video-upload">
+                                        <label for="video-file">Unggah Video</label>
+                                        <div class="upload-area">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <p>Seret dan lepas file video di sini atau klik untuk memilih</p>
+                                            <input type="file" accept="video/*">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group video-youtube" id="video-youtube" style="display: none;">
+                                        <label for="youtube-url">URL YouTube</label>
+                                        <input type="text" id="youtube-url" placeholder="Masukkan link YouTube">
+                                    </div>
+                                    
+                                    <button type="submit" class="upload-button">Unggah Video</button>
+                                </form>
+                            </div>
+                            
+                            <div class="tab-content" id="article">
+                                <form class="upload-form">
+                                    <div class="form-group">
+                                        <label for="article-title">Judul Artikel</label>
+                                        <input type="text" id="article-title" placeholder="Masukkan judul artikel">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="article-category">Kategori</label>
+                                        <select id="article-category">
+                                            <option value="berita">Berita</option>
+                                            <option value="pengumuman">Pengumuman</option>
+                                            <option value="artikel">Artikel Islami</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="article-content">Isi Artikel</label>
+                                        <div class="editor-toolbar">
+                                            <button type="button" data-command="bold"><i class="fas fa-bold"></i></button>
+                                            <button type="button" data-command="italic"><i class="fas fa-italic"></i></button>
+                                            <button type="button" data-command="underline"><i class="fas fa-underline"></i></button>
+                                            <button type="button" data-command="insertUnorderedList"><i class="fas fa-list-ul"></i></button>
+                                            <button type="button" data-command="insertOrderedList"><i class="fas fa-list-ol"></i></button>
+                                            <button type="button" data-command="createLink"><i class="fas fa-link"></i></button>
+                                            <button type="button" data-command="insertImage"><i class="fas fa-image"></i></button>
+                                        </div>
+                                        <div class="editor-content" id="article-content" contenteditable="true" placeholder="Tulis isi artikel di sini..."></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="article-thumbnail">Thumbnail Artikel</label>
+                                        <div class="upload-area" id="article-thumbnail">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <p>Seret dan lepas file gambar di sini atau klik untuk memilih</p>
+                                            <input type="file" accept="image/*">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="article-tags">Tag</label>
+                                        <input type="text" id="article-tags" placeholder="Pisahkan dengan koma">
+                                    </div>
+                                    
+                                    <div class="form-actions">
+                                        <button type="button" class="save-draft">Simpan Draft</button>
+                                        <button type="submit" class="publish-button">Publikasikan</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
